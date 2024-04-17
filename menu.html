@@ -1,0 +1,1641 @@
+<!DOCTYPE html>
+<html lang="en-us">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=deivce-width,initial-scale=1,shrink-to-fit=no">
+	<title>Catering</title>
+	<link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="assets/css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="assets/css/all.min.css">
+	<link rel="stylesheet" href="assets/css/owl.carousel.min.css">
+	<link rel="stylesheet" href="assets/css/owl.theme.default.min.css">
+	<link rel="stylesheet" href="assets/css/flex-box.css">
+	<link rel="stylesheet" href="assets/css/style.css">
+	<link rel="stylesheet" href="assets/css/responsive.css">
+</head>
+<body>
+
+
+
+	<header>
+		<div class="header-wrapper">
+			<div class="container">
+				<div class="inner-header">
+					<div class="logo">
+						<h1>
+							<a href="#">
+								<img src="assets/images/resources/logo.png" alt="logo-img">
+							</a>
+						</h1>
+					</div>
+					<div class="menu-wrapper" id="nav">
+						<div class="cross-btn">
+							<a href="#">
+								<i class="fa-solid fa-xmark" id="cros"></i>
+							</a>
+							<div class="logo">
+								<a href="#"><h1>
+									<img src="assets/images/resources/logo.png" alt="logo-img">
+								</h1></a>
+							</div><!--end-logo-->
+						</div>
+						<nav>
+							<ul class="menu">
+								<li><a href="diet.html">Diets</a></li>
+								<li><a href="calorie.html">Calorie calculator</a></li>
+								<li class="active menu-item-has-children" id="bar">
+									<a href="#">Menu</a>
+									<ul id="nav-menu-toogle">
+										<li><a href="index.html">Home</a></li>
+										<li><a href="#">About</a></li>
+										<li><a href="diet.html">Diet</a></li>
+										<li><a href="#">Menu</a></li>
+									</ul>
+								</li>
+								<li><a href="delivery.html">Delivery</a></li>
+								<li><a href="#">About Us</a></li>
+								<li><a href="#">Blog</a></li>
+								<li><a href="#">Faq</a></li>
+							</ul>
+						</nav>
+					</div>
+					<div class="sign-shop-main">
+						<ul class="sign-shop-wrapper">
+							<li class="shopping-bag">
+								<a href="#"><i class="fa-solid fa-bag-shopping"></i></a>
+								<div class="cart-wrapper">
+									<div class="cart-block">
+										<div class="cart-img">
+											<figure>
+												<img src="assets/images/resources/diet-img9.png" alt="cart-img">
+											</figure>
+										</div>
+										<div class="cart-content">
+											<h6>Pasta</h6>
+											<p>Tasty Food</p>
+											<span>$100</span>
+											<a href="#" class="remove">
+												<i class="fa-solid fa-xmark"></i>
+											</a>
+										</div>
+									</div>
+									<div class="cart-block">
+										<div class="cart-img">
+											<figure>
+												<img src="assets/images/resources/diet-img9.png" alt="cart-img">
+											</figure>
+										</div>
+										<div class="cart-content">
+											<h6>Pasta</h6>
+											<p>Tasty Food</p>
+											<span>$100</span>
+											<a href="#" class="remove">
+												<i class="fa-solid fa-xmark"></i>
+											</a>
+										</div>
+									</div>
+									<div class="cart-summary">
+										<span>Total</span>
+										<span class="total-price">$1799.00</span>
+									</div>
+									<div class="cart-btn">
+										<a href="#" class="theme-btn">View Cart</a>
+									</div>
+								</div>
+							</li>
+							<li class="sign-btn">
+								<a href="#" class="theme-btn" data-bs-toggle="modal" data-bs-target="#authorize-popup">Sign in</a>
+							</li>
+							<li class="menu-toggle">
+								<a href="#" id="line">
+									<i class="fas fa-bars"></i>
+								</a>
+							</li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<div id="authorize-popup" tabindex="-1" aria-labelledby="authorize-popup" class="modal fade" aria-modal="true" role="dialog">
+			<div class="modal-dialog modal-dialog-centered">
+				<div class="modal-content">
+					<div class="modal-header"><button type="button" data-bs-dismiss="modal" aria-label="Close" class="btn-close"></button></div>
+					<div class="modal-body">
+						<div class="modal-title"><h2>Sign Up</h2></div>
+						<form>
+							<div class="form-group">
+								<input type="text" placeholder="Username">
+								<input type="email" placeholder="Email Address">
+								<button type="button" class="forgot">Forgot Password?</button>
+								<button type="button" class="theme-btn">Sign Up</button>
+							</div>
+						</form>
+					</div>
+				</div>
+			</div>
+		</div>
+	</header>
+
+
+	<section>
+		<div class="menu-main-wrapper">
+			<div class="container">
+				<div class="title">
+					<h2>Menu</h2>
+				</div>
+				<div class="tabs-wrap w-100">
+					<div class="diet-select">
+						<ul class="nav nav-tabs" id="myTab" role="tablist">
+							<li class="nav-item" role="presentation">
+								<button class="nav-link active" id="toprated-tab" data-bs-toggle="tab" data-bs-target="#toprated" type="button" role="tab" aria-controls="toprated" aria-selected="true">Top rated</button>
+							</li>
+							<li class="nav-item" role="presentation">
+								<button class="nav-link" id="breakfast-tab" data-bs-toggle="tab" data-bs-target="#breakfast" type="button" role="tab" aria-controls="breakfast" aria-selected="false">Breakfast</button>
+							</li>
+							<li class="nav-item" role="presentation">
+								<button class="nav-link" id="breakfast2-tab" data-bs-toggle="tab" data-bs-target="#breakfast2" type="button" role="tab" aria-controls="breakfast2" aria-selected="false">|| Breakfast</button>
+							</li>
+							<li class="nav-item" role="presentation">
+								<button class="nav-link" id="lunch-tab" data-bs-toggle="tab" data-bs-target="#lunch" type="button" role="tab" aria-controls="lunch" aria-selected="false">Lunch</button>
+							</li>
+							<li class="nav-item" role="presentation">
+								<button class="nav-link" id="snack-tab" data-bs-toggle="tab" data-bs-target="#snack" type="button" role="tab" aria-controls="snack" aria-selected="true">Snack</button>
+							</li>
+							<li class="nav-item" role="presentation">
+								<button class="nav-link" id="dinner-tab" data-bs-toggle="tab" data-bs-target="#dinner" type="button" role="tab" aria-controls="dinner" aria-selected="false">Dinner</button>
+							</li>
+						</ul>
+						<div class="select-menu">
+							<div class="select-wrapper">
+
+								<div class="selected-option">
+									<p>Choose</p>
+								</div>
+								<div class="select-option-card">
+									<ul>
+										<li>Dinner</li>
+										<li>Lunch</li>
+										<li>Breakfast</li>
+										<li>Snack</li>
+									</ul>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="tab-content" id="myTabContent">
+						<div class="tab-pane fade show active" id="toprated" role="tabpanel" aria-labelledby="toprated-tab">
+							<div class="theme-wrap w-100">
+								<div class="row">
+									<div class="col-lg-3 col-md-6 col-sm-12">
+										<div class="menu-box">
+											<div class="menu-img">
+												<figure>
+													<img src="assets/images/resources/diet-img9.png" alt="menu-img">
+												</figure>
+												<div class="manu-tag">
+													<span>Breakfast</span>
+												</div>
+												<div class="menu-cmnt">
+													<a href="#">4.8</a>
+												</div>
+											</div>
+											<div class="menu-content">
+												<h6>Molestiae sed augue eu sapien hendrerit fringilla</h6>
+												<p>Taque earum rerum hic tenetur a sapiente</p>
+												<div class="diet-plane-wrapper">
+													<span>Diet: <b>Slim</b></span>
+													<ul>
+														<li><a href="#"><i class="fa-solid fa-leaf"></i></a></li>
+														<li><a href="#"><i class="fa-solid fa-egg"></i></a></li>
+														<li><a href="#"><i class="fa-solid fa-lines-leaning"></i></a></li>
+													</ul>
+												</div>
+												<span class="kcal-wrapper">420 Kcal</span>
+											</div>
+										</div>
+									</div>
+									<div class="col-lg-3 col-md-6 col-sm-12">
+										<div class="menu-box">
+											<div class="menu-img">
+												<figure>
+													<img src="assets/images/resources/diet-img10.png" alt="menu-img">
+												</figure>
+												<div class="manu-tag">
+													<span>Lunch</span>
+												</div>
+												<div class="menu-cmnt">
+													<a href="#">4.8</a>
+												</div>
+											</div>
+											<div class="menu-content">
+												<h6>Vel illum condimentum, risus et</h6>
+												<p>Ut aut reiciendis voluptatibus maiores alias consequatur aut</p>
+												<div class="diet-plane-wrapper">
+													<span>Diet: <b>Vegan</b></span>
+													<ul>
+														<li><a href="#"><i class="fa-solid fa-leaf"></i></a></li>
+														<li><a href="#"><i class="fa-solid fa-egg"></i></a></li>
+													</ul>
+												</div>
+												<span class="kcal-wrapper">254 Kcal</span>
+											</div>
+										</div>
+									</div>
+									<div class="col-lg-3 col-md-6 col-sm-12">
+										<div class="menu-box">
+											<div class="menu-img">
+												<figure>
+													<img src="assets/images/resources/diet-img11.png" alt="menu-img">
+												</figure>
+												<div class="manu-tag">
+													<span>Snacks</span>
+												</div>
+												<div class="menu-cmnt">
+													<a href="#">4.7</a>
+												</div>
+											</div>
+											<div class="menu-content">
+												<h6>Eum fugiat nulla gravida magna</h6>
+												<p>Ut aut reiciendis voluptatibus maiores alias consequatur aut</p>
+												<div class="diet-plane-wrapper">
+													<span>Diet: <b>Slim</b></span>
+													<ul>
+														<li><a href="#"><i class="fa-solid fa-leaf"></i></a></li>
+														<li><a href="#"><i class="fa-solid fa-egg"></i></a></li>
+														<li><a href="#"><i class="fa-solid fa-lines-leaning"></i></a></li>
+													</ul>
+												</div>
+												<span class="kcal-wrapper">298 Kcal</span>
+											</div>
+										</div>
+									</div>
+									<div class="col-lg-3 col-md-6 col-sm-12">
+										<div class="menu-box">
+											<div class="menu-img">
+												<figure>
+													<img src="assets/images/resources/diet-img12.png" alt="menu-img">
+												</figure>
+												<div class="manu-tag">
+													<span>Breakfast</span>
+												</div>
+												<div class="menu-cmnt">
+													<a href="#">4.7</a>
+												</div>
+											</div>
+											<div class="menu-content">
+												<h6>Molestiae sed augue eu sapien hendrerit fringilla</h6>
+												<p>libero tempore, cum soluta nobis est eligendi</p>
+												<div class="diet-plane-wrapper">
+													<span>Diet: <b>Dla mam</b></span>
+													<ul>
+														<li><a href="#"><i class="fa-solid fa-leaf"></i></a></li>
+														<li><a href="#"><i class="fa-solid fa-egg"></i></a></li>
+														<li><a href="#"><i class="fa-solid fa-lines-leaning"></i></a></li>
+													</ul>
+												</div>
+												<span class="kcal-wrapper">182 Kcal</span>
+											</div>
+										</div>
+									</div>
+									<div class="col-lg-3 col-md-6 col-sm-12">
+										<div class="menu-box">
+											<div class="menu-img">
+												<figure>
+													<img src="assets/images/resources/diet-img13.png" alt="menu-img">
+												</figure>
+												<div class="manu-tag">
+													<span>Dinner</span>
+												</div>
+												<div class="menu-cmnt">
+													<a href="#">4.7</a>
+												</div>
+											</div>
+											<div class="menu-content">
+												<h6>Molestiae sed augue eu sapien hendrerit fringilla</h6>
+												<p>Taque earum rerum hic tenetur a sapiente</p>
+												<div class="diet-plane-wrapper">
+													<span>Diet: <b>Fit</b></span>
+													<ul>
+														<li><a href="#"><i class="fa-solid fa-leaf"></i></a></li>
+														<li><a href="#"><i class="fa-solid fa-egg"></i></a></li>
+														<li><a href="#"><i class="fa-solid fa-lines-leaning"></i></a></li>
+													</ul>
+												</div>
+												<span class="kcal-wrapper">410 Kcal</span>
+											</div>
+										</div>
+									</div>
+									<div class="col-lg-3 col-md-6 col-sm-12">
+										<div class="menu-box">
+											<div class="menu-img">
+												<figure>
+													<img src="assets/images/resources/diet-img14.png" alt="menu-img">
+												</figure>
+												<div class="manu-tag">
+													<span>Lunch</span>
+												</div>
+												<div class="menu-cmnt">
+													<a href="#">4.7</a>
+												</div>
+											</div>
+											<div class="menu-content">
+												<h6>Vel illum odio ultricies, nec sollicitudin eros</h6>
+												<p>libero tempore, cum soluta nobis est eligendi</p>
+												<div class="diet-plane-wrapper">
+													<span>Diet: <b>Vegan</b></span>
+													<ul>
+														<li><a href="#"><i class="fa-solid fa-leaf"></i></a></li>
+														<li><a href="#"><i class="fa-solid fa-egg"></i></a></li>
+														<li><a href="#"><i class="fa-solid fa-lines-leaning"></i></a></li>
+													</ul>
+												</div>
+												<span class="kcal-wrapper">420 Kcal</span>
+											</div>
+										</div>
+									</div>
+									<div class="col-lg-3 col-md-6 col-sm-12">
+										<div class="menu-box">
+											<div class="menu-img">
+												<figure>
+													<img src="assets/images/resources/diet-img15.png" alt="menu-img">
+												</figure>
+												<div class="manu-tag">
+													<span>Lunch</span>
+												</div>
+												<div class="menu-cmnt">
+													<a href="#">4.7</a>
+												</div>
+											</div>
+											<div class="menu-content">
+												<h6>Eum fugiat accumsan, sapien vel</h6>
+												<p>Ut aut reiciendis voluptatibus maiores alias consequatur aut</p>
+												<div class="diet-plane-wrapper">
+													<span>Diet: <b>Keto</b></span>
+													<ul>
+														<li><a href="#"><i class="fa-solid fa-leaf"></i></a></li>
+														<li><a href="#"><i class="fa-solid fa-egg"></i></a></li>
+														<li><a href="#"><i class="fa-solid fa-lines-leaning"></i></a></li>
+													</ul>
+												</div>
+												<span class="kcal-wrapper">322 Kcal</span>
+											</div>
+										</div>
+									</div>
+									<div class="col-lg-3 col-md-6 col-sm-12">
+										<div class="menu-box">
+											<div class="menu-img">
+												<figure>
+													<img src="assets/images/resources/diet-img16.png" alt="menu-img">
+												</figure>
+												<div class="manu-tag">
+													<span>Dinner</span>
+												</div>
+												<div class="menu-cmnt">
+													<a href="#">4.7</a>
+												</div>
+											</div>
+											<div class="menu-content">
+												<h6>Оlestiae placerat orci vel arc</h6>
+												<p>Ut aut reiciendis voluptatibus maiores alias consequatur aut</p>
+												<div class="diet-plane-wrapper">
+													<span>Diet: <b>Office box</b></span>
+													<ul>
+														<li><a href="#"><i class="fa-solid fa-leaf"></i></a></li>
+														<li><a href="#"><i class="fa-solid fa-egg"></i></a></li>
+														<li><a href="#"><i class="fa-solid fa-lines-leaning"></i></a></li>
+													</ul>
+												</div>
+												<span class="kcal-wrapper">388 Kcal</span>
+											</div>
+										</div>
+									</div>
+								</div><!--row-->
+							</div><!--theme-wrap-->
+							<div class="See-more">
+								<a href="#">See More</a>
+							</div><!--See-more-->
+						</div>
+						<div class="tab-pane fade" id="breakfast" role="tabpanel" aria-labelledby="breakfast-tab">
+							<div class="theme-wrap w-100">
+								<div class="row">
+									<div class="col-lg-3 col-md-6 col-sm-12">
+										<div class="menu-box">
+											<div class="menu-img">
+												<figure>
+													<img src="assets/images/resources/diet-img10.png" alt="menu-img">
+												</figure>
+												<div class="manu-tag">
+													<span>Lunch</span>
+												</div>
+												<div class="menu-cmnt">
+													<a href="#">4.8</a>
+												</div>
+											</div>
+											<div class="menu-content">
+												<h6>Vel illum condimentum, risus et</h6>
+												<p>Ut aut reiciendis voluptatibus maiores alias consequatur aut</p>
+												<div class="diet-plane-wrapper">
+													<span>Diet: <b>Vegan</b></span>
+													<ul>
+														<li><a href="#"><i class="fa-solid fa-leaf"></i></a></li>
+														<li><a href="#"><i class="fa-solid fa-egg"></i></a></li>
+													</ul>
+												</div>
+												<span class="kcal-wrapper">254 Kcal</span>
+											</div>
+										</div>
+									</div>
+									<div class="col-lg-3 col-md-6 col-sm-12">
+										<div class="menu-box">
+											<div class="menu-img">
+												<figure>
+													<img src="assets/images/resources/diet-img14.png" alt="menu-img">
+												</figure>
+												<div class="manu-tag">
+													<span>Lunch</span>
+												</div>
+												<div class="menu-cmnt">
+													<a href="#">4.7</a>
+												</div>
+											</div>
+											<div class="menu-content">
+												<h6>Vel illum odio ultricies, nec sollicitudin eros</h6>
+												<p>libero tempore, cum soluta nobis est eligendi</p>
+												<div class="diet-plane-wrapper">
+													<span>Diet: <b>Vegan</b></span>
+													<ul>
+														<li><a href="#"><i class="fa-solid fa-leaf"></i></a></li>
+														<li><a href="#"><i class="fa-solid fa-egg"></i></a></li>
+														<li><a href="#"><i class="fa-solid fa-lines-leaning"></i></a></li>
+													</ul>
+												</div>
+												<span class="kcal-wrapper">420 Kcal</span>
+											</div>
+										</div>
+									</div>
+									<div class="col-lg-3 col-md-6 col-sm-12">
+										<div class="menu-box">
+											<div class="menu-img">
+												<figure>
+													<img src="assets/images/resources/diet-img13.png" alt="menu-img">
+												</figure>
+												<div class="manu-tag">
+													<span>Dinner</span>
+												</div>
+												<div class="menu-cmnt">
+													<a href="#">4.7</a>
+												</div>
+											</div>
+											<div class="menu-content">
+												<h6>Molestiae sed augue eu sapien hendrerit fringilla</h6>
+												<p>Taque earum rerum hic tenetur a sapiente</p>
+												<div class="diet-plane-wrapper">
+													<span>Diet: <b>Fit</b></span>
+													<ul>
+														<li><a href="#"><i class="fa-solid fa-leaf"></i></a></li>
+														<li><a href="#"><i class="fa-solid fa-egg"></i></a></li>
+														<li><a href="#"><i class="fa-solid fa-lines-leaning"></i></a></li>
+													</ul>
+												</div>
+												<span class="kcal-wrapper">410 Kcal</span>
+											</div>
+										</div>
+									</div>
+									<div class="col-lg-3 col-md-6 col-sm-12">
+										<div class="menu-box">
+											<div class="menu-img">
+												<figure>
+													<img src="assets/images/resources/diet-img12.png" alt="menu-img">
+												</figure>
+												<div class="manu-tag">
+													<span>Breakfast</span>
+												</div>
+												<div class="menu-cmnt">
+													<a href="#">4.7</a>
+												</div>
+											</div>
+											<div class="menu-content">
+												<h6>Molestiae sed augue eu sapien hendrerit fringilla</h6>
+												<p>libero tempore, cum soluta nobis est eligendi</p>
+												<div class="diet-plane-wrapper">
+													<span>Diet: <b>Dla mam</b></span>
+													<ul>
+														<li><a href="#"><i class="fa-solid fa-leaf"></i></a></li>
+														<li><a href="#"><i class="fa-solid fa-egg"></i></a></li>
+														<li><a href="#"><i class="fa-solid fa-lines-leaning"></i></a></li>
+													</ul>
+												</div>
+												<span class="kcal-wrapper">182 Kcal</span>
+											</div>
+										</div>
+									</div>
+									<div class="col-lg-3 col-md-6 col-sm-12">
+										<div class="menu-box">
+											<div class="menu-img">
+												<figure>
+													<img src="assets/images/resources/diet-img11.png" alt="menu-img">
+												</figure>
+												<div class="manu-tag">
+													<span>Snacks</span>
+												</div>
+												<div class="menu-cmnt">
+													<a href="#">4.7</a>
+												</div>
+											</div>
+											<div class="menu-content">
+												<h6>Eum fugiat nulla gravida magna</h6>
+												<p>Ut aut reiciendis voluptatibus maiores alias consequatur aut</p>
+												<div class="diet-plane-wrapper">
+													<span>Diet: <b>Slim</b></span>
+													<ul>
+														<li><a href="#"><i class="fa-solid fa-leaf"></i></a></li>
+														<li><a href="#"><i class="fa-solid fa-egg"></i></a></li>
+														<li><a href="#"><i class="fa-solid fa-lines-leaning"></i></a></li>
+													</ul>
+												</div>
+												<span class="kcal-wrapper">298 Kcal</span>
+											</div>
+										</div>
+									</div>
+									<div class="col-lg-3 col-md-6 col-sm-12">
+										<div class="menu-box">
+											<div class="menu-img">
+												<figure>
+													<img src="assets/images/resources/diet-img15.png" alt="menu-img">
+												</figure>
+												<div class="manu-tag">
+													<span>Lunch</span>
+												</div>
+												<div class="menu-cmnt">
+													<a href="#">4.7</a>
+												</div>
+											</div>
+											<div class="menu-content">
+												<h6>Eum fugiat accumsan, sapien vel</h6>
+												<p>Ut aut reiciendis voluptatibus maiores alias consequatur aut</p>
+												<div class="diet-plane-wrapper">
+													<span>Diet: <b>Keto</b></span>
+													<ul>
+														<li><a href="#"><i class="fa-solid fa-leaf"></i></a></li>
+														<li><a href="#"><i class="fa-solid fa-egg"></i></a></li>
+														<li><a href="#"><i class="fa-solid fa-lines-leaning"></i></a></li>
+													</ul>
+												</div>
+												<span class="kcal-wrapper">322 Kcal</span>
+											</div>
+										</div>
+									</div>
+									<div class="col-lg-3 col-md-6 col-sm-12">
+										<div class="menu-box">
+											<div class="menu-img">
+												<figure>
+													<img src="assets/images/resources/diet-img9.png" alt="menu-img">
+												</figure>
+												<div class="manu-tag">
+													<span>Breakfast</span>
+												</div>
+												<div class="menu-cmnt">
+													<a href="#">4.8</a>
+												</div>
+											</div>
+											<div class="menu-content">
+												<h6>Molestiae sed augue eu sapien hendrerit fringilla</h6>
+												<p>Taque earum rerum hic tenetur a sapiente</p>
+												<div class="diet-plane-wrapper">
+													<span>Diet: <b>Slim</b></span>
+													<ul>
+														<li><a href="#"><i class="fa-solid fa-leaf"></i></a></li>
+														<li><a href="#"><i class="fa-solid fa-egg"></i></a></li>
+														<li><a href="#"><i class="fa-solid fa-lines-leaning"></i></a></li>
+													</ul>
+												</div>
+												<span class="kcal-wrapper">420 Kcal</span>
+											</div>
+										</div>
+									</div>
+									<div class="col-lg-3 col-md-6 col-sm-12">
+										<div class="menu-box">
+											<div class="menu-img">
+												<figure>
+													<img src="assets/images/resources/diet-img16.png" alt="menu-img">
+												</figure>
+												<div class="manu-tag">
+													<span>Dinner</span>
+												</div>
+												<div class="menu-cmnt">
+													<a href="#">4.7</a>
+												</div>
+											</div>
+											<div class="menu-content">
+												<h6>Оlestiae placerat orci vel arc</h6>
+												<p>Ut aut reiciendis voluptatibus maiores alias consequatur aut</p>
+												<div class="diet-plane-wrapper">
+													<span>Diet: <b>Office box</b></span>
+													<ul>
+														<li><a href="#"><i class="fa-solid fa-leaf"></i></a></li>
+														<li><a href="#"><i class="fa-solid fa-egg"></i></a></li>
+														<li><a href="#"><i class="fa-solid fa-lines-leaning"></i></a></li>
+													</ul>
+												</div>
+												<span class="kcal-wrapper">388 Kcal</span>
+											</div>
+										</div>
+									</div>
+								</div><!--row-->
+							</div><!--theme-wrap-->
+							<div class="See-more">
+								<a href="#">See More</a>
+							</div><!--See-more-->
+						</div>
+						<div class="tab-pane fade" id="breakfast2" role="tabpanel" aria-labelledby="breakfast2-tab">
+							<div class="theme-wrap w-100">
+								<div class="row">
+									<div class="col-lg-3 col-md-6 col-sm-12">
+										<div class="menu-box">
+											<div class="menu-img">
+												<figure>
+													<img src="assets/images/resources/diet-img13.png" alt="menu-img">
+												</figure>
+												<div class="manu-tag">
+													<span>Dinner</span>
+												</div>
+												<div class="menu-cmnt">
+													<a href="#">4.7</a>
+												</div>
+											</div>
+											<div class="menu-content">
+												<h6>Molestiae sed augue eu sapien hendrerit fringilla</h6>
+												<p>Taque earum rerum hic tenetur a sapiente</p>
+												<div class="diet-plane-wrapper">
+													<span>Diet: <b>Fit</b></span>
+													<ul>
+														<li><a href="#"><i class="fa-solid fa-leaf"></i></a></li>
+														<li><a href="#"><i class="fa-solid fa-egg"></i></a></li>
+														<li><a href="#"><i class="fa-solid fa-lines-leaning"></i></a></li>
+													</ul>
+												</div>
+												<span class="kcal-wrapper">410 Kcal</span>
+											</div>
+										</div>
+									</div>
+									<div class="col-lg-3 col-md-6 col-sm-12">
+										<div class="menu-box">
+											<div class="menu-img">
+												<figure>
+													<img src="assets/images/resources/diet-img11.png" alt="menu-img">
+												</figure>
+												<div class="manu-tag">
+													<span>Snacks</span>
+												</div>
+												<div class="menu-cmnt">
+													<a href="#">4.7</a>
+												</div>
+											</div>
+											<div class="menu-content">
+												<h6>Eum fugiat nulla gravida magna</h6>
+												<p>Ut aut reiciendis voluptatibus maiores alias consequatur aut</p>
+												<div class="diet-plane-wrapper">
+													<span>Diet: <b>Slim</b></span>
+													<ul>
+														<li><a href="#"><i class="fa-solid fa-leaf"></i></a></li>
+														<li><a href="#"><i class="fa-solid fa-egg"></i></a></li>
+														<li><a href="#"><i class="fa-solid fa-lines-leaning"></i></a></li>
+													</ul>
+												</div>
+												<span class="kcal-wrapper">298 Kcal</span>
+											</div>
+										</div>
+									</div>
+									<div class="col-lg-3 col-md-6 col-sm-12">
+										<div class="menu-box">
+											<div class="menu-img">
+												<figure>
+													<img src="assets/images/resources/diet-img12.png" alt="menu-img">
+												</figure>
+												<div class="manu-tag">
+													<span>Breakfast</span>
+												</div>
+												<div class="menu-cmnt">
+													<a href="#">4.7</a>
+												</div>
+											</div>
+											<div class="menu-content">
+												<h6>Molestiae sed augue eu sapien hendrerit fringilla</h6>
+												<p>libero tempore, cum soluta nobis est eligendi</p>
+												<div class="diet-plane-wrapper">
+													<span>Diet: <b>Dla mam</b></span>
+													<ul>
+														<li><a href="#"><i class="fa-solid fa-leaf"></i></a></li>
+														<li><a href="#"><i class="fa-solid fa-egg"></i></a></li>
+														<li><a href="#"><i class="fa-solid fa-lines-leaning"></i></a></li>
+													</ul>
+												</div>
+												<span class="kcal-wrapper">182 Kcal</span>
+											</div>
+										</div>
+									</div>
+									<div class="col-lg-3 col-md-6 col-sm-12">
+										<div class="menu-box">
+											<div class="menu-img">
+												<figure>
+													<img src="assets/images/resources/diet-img10.png" alt="menu-img">
+												</figure>
+												<div class="manu-tag">
+													<span>Lunch</span>
+												</div>
+												<div class="menu-cmnt">
+													<a href="#">4.8</a>
+												</div>
+											</div>
+											<div class="menu-content">
+												<h6>Vel illum condimentum, risus et</h6>
+												<p>Ut aut reiciendis voluptatibus maiores alias consequatur aut</p>
+												<div class="diet-plane-wrapper">
+													<span>Diet: <b>Vegan</b></span>
+													<ul>
+														<li><a href="#"><i class="fa-solid fa-leaf"></i></a></li>
+														<li><a href="#"><i class="fa-solid fa-egg"></i></a></li>
+													</ul>
+												</div>
+												<span class="kcal-wrapper">254 Kcal</span>
+											</div>
+										</div>
+									</div>
+									<div class="col-lg-3 col-md-6 col-sm-12">
+										<div class="menu-box">
+											<div class="menu-img">
+												<figure>
+													<img src="assets/images/resources/diet-img14.png" alt="menu-img">
+												</figure>
+												<div class="manu-tag">
+													<span>Lunch</span>
+												</div>
+												<div class="menu-cmnt">
+													<a href="#">4.7</a>
+												</div>
+											</div>
+											<div class="menu-content">
+												<h6>Vel illum odio ultricies, nec sollicitudin eros</h6>
+												<p>libero tempore, cum soluta nobis est eligendi</p>
+												<div class="diet-plane-wrapper">
+													<span>Diet: <b>Vegan</b></span>
+													<ul>
+														<li><a href="#"><i class="fa-solid fa-leaf"></i></a></li>
+														<li><a href="#"><i class="fa-solid fa-egg"></i></a></li>
+														<li><a href="#"><i class="fa-solid fa-lines-leaning"></i></a></li>
+													</ul>
+												</div>
+												<span class="kcal-wrapper">420 Kcal</span>
+											</div>
+										</div>
+									</div>
+									<div class="col-lg-3 col-md-6 col-sm-12">
+										<div class="menu-box">
+											<div class="menu-img">
+												<figure>
+													<img src="assets/images/resources/diet-img16.png" alt="menu-img">
+												</figure>
+												<div class="manu-tag">
+													<span>Dinner</span>
+												</div>
+												<div class="menu-cmnt">
+													<a href="#">4.7</a>
+												</div>
+											</div>
+											<div class="menu-content">
+												<h6>Оlestiae placerat orci vel arc</h6>
+												<p>Ut aut reiciendis voluptatibus maiores alias consequatur aut</p>
+												<div class="diet-plane-wrapper">
+													<span>Diet: <b>Office box</b></span>
+													<ul>
+														<li><a href="#"><i class="fa-solid fa-leaf"></i></a></li>
+														<li><a href="#"><i class="fa-solid fa-egg"></i></a></li>
+														<li><a href="#"><i class="fa-solid fa-lines-leaning"></i></a></li>
+													</ul>
+												</div>
+												<span class="kcal-wrapper">388 Kcal</span>
+											</div>
+										</div>
+									</div>
+									<div class="col-lg-3 col-md-6 col-sm-12">
+										<div class="menu-box">
+											<div class="menu-img">
+												<figure>
+													<img src="assets/images/resources/diet-img15.png" alt="menu-img">
+												</figure>
+												<div class="manu-tag">
+													<span>Lunch</span>
+												</div>
+												<div class="menu-cmnt">
+													<a href="#">4.7</a>
+												</div>
+											</div>
+											<div class="menu-content">
+												<h6>Eum fugiat accumsan, sapien vel</h6>
+												<p>Ut aut reiciendis voluptatibus maiores alias consequatur aut</p>
+												<div class="diet-plane-wrapper">
+													<span>Diet: <b>Keto</b></span>
+													<ul>
+														<li><a href="#"><i class="fa-solid fa-leaf"></i></a></li>
+														<li><a href="#"><i class="fa-solid fa-egg"></i></a></li>
+														<li><a href="#"><i class="fa-solid fa-lines-leaning"></i></a></li>
+													</ul>
+												</div>
+												<span class="kcal-wrapper">322 Kcal</span>
+											</div>
+										</div>
+									</div>
+									<div class="col-lg-3 col-md-6 col-sm-12">
+										<div class="menu-box">
+											<div class="menu-img">
+												<figure>
+													<img src="assets/images/resources/diet-img9.png" alt="menu-img">
+												</figure>
+												<div class="manu-tag">
+													<span>Breakfast</span>
+												</div>
+												<div class="menu-cmnt">
+													<a href="#">4.8</a>
+												</div>
+											</div>
+											<div class="menu-content">
+												<h6>Molestiae sed augue eu sapien hendrerit fringilla</h6>
+												<p>Taque earum rerum hic tenetur a sapiente</p>
+												<div class="diet-plane-wrapper">
+													<span>Diet: <b>Slim</b></span>
+													<ul>
+														<li><a href="#"><i class="fa-solid fa-leaf"></i></a></li>
+														<li><a href="#"><i class="fa-solid fa-egg"></i></a></li>
+														<li><a href="#"><i class="fa-solid fa-lines-leaning"></i></a></li>
+													</ul>
+												</div>
+												<span class="kcal-wrapper">420 Kcal</span>
+											</div>
+										</div>
+									</div>
+								</div><!--row-->
+							</div><!--theme-wrap-->
+							<div class="See-more">
+								<a href="#">See More</a>
+							</div><!--See-more-->
+						</div>
+						<div class="tab-pane fade" id="lunch" role="tabpanel" aria-labelledby="lunch-tab">
+							<div class="theme-wrap w-100">
+								<div class="row">
+									<div class="col-lg-3 col-md-6 col-sm-12">
+										<div class="menu-box">
+											<div class="menu-img">
+												<figure>
+													<img src="assets/images/resources/diet-img9.png" alt="menu-img">
+												</figure>
+												<div class="manu-tag">
+													<span>Breakfast</span>
+												</div>
+												<div class="menu-cmnt">
+													<a href="#">4.8</a>
+												</div>
+											</div>
+											<div class="menu-content">
+												<h6>Molestiae sed augue eu sapien hendrerit fringilla</h6>
+												<p>Taque earum rerum hic tenetur a sapiente</p>
+												<div class="diet-plane-wrapper">
+													<span>Diet: <b>Slim</b></span>
+													<ul>
+														<li><a href="#"><i class="fa-solid fa-leaf"></i></a></li>
+														<li><a href="#"><i class="fa-solid fa-egg"></i></a></li>
+														<li><a href="#"><i class="fa-solid fa-lines-leaning"></i></a></li>
+													</ul>
+												</div>
+												<span class="kcal-wrapper">420 Kcal</span>
+											</div>
+										</div>
+									</div>
+									<div class="col-lg-3 col-md-6 col-sm-12">
+										<div class="menu-box">
+											<div class="menu-img">
+												<figure>
+													<img src="assets/images/resources/diet-img10.png" alt="menu-img">
+												</figure>
+												<div class="manu-tag">
+													<span>Lunch</span>
+												</div>
+												<div class="menu-cmnt">
+													<a href="#">4.8</a>
+												</div>
+											</div>
+											<div class="menu-content">
+												<h6>Vel illum condimentum, risus et</h6>
+												<p>Ut aut reiciendis voluptatibus maiores alias consequatur aut</p>
+												<div class="diet-plane-wrapper">
+													<span>Diet: <b>Vegan</b></span>
+													<ul>
+														<li><a href="#"><i class="fa-solid fa-leaf"></i></a></li>
+														<li><a href="#"><i class="fa-solid fa-egg"></i></a></li>
+													</ul>
+												</div>
+												<span class="kcal-wrapper">254 Kcal</span>
+											</div>
+										</div>
+									</div>
+									<div class="col-lg-3 col-md-6 col-sm-12">
+										<div class="menu-box">
+											<div class="menu-img">
+												<figure>
+													<img src="assets/images/resources/diet-img11.png" alt="menu-img">
+												</figure>
+												<div class="manu-tag">
+													<span>Snacks</span>
+												</div>
+												<div class="menu-cmnt">
+													<a href="#">4.7</a>
+												</div>
+											</div>
+											<div class="menu-content">
+												<h6>Eum fugiat nulla gravida magna</h6>
+												<p>Ut aut reiciendis voluptatibus maiores alias consequatur aut</p>
+												<div class="diet-plane-wrapper">
+													<span>Diet: <b>Slim</b></span>
+													<ul>
+														<li><a href="#"><i class="fa-solid fa-leaf"></i></a></li>
+														<li><a href="#"><i class="fa-solid fa-egg"></i></a></li>
+														<li><a href="#"><i class="fa-solid fa-lines-leaning"></i></a></li>
+													</ul>
+												</div>
+												<span class="kcal-wrapper">298 Kcal</span>
+											</div>
+										</div>
+									</div>
+									<div class="col-lg-3 col-md-6 col-sm-12">
+										<div class="menu-box">
+											<div class="menu-img">
+												<figure>
+													<img src="assets/images/resources/diet-img12.png" alt="menu-img">
+												</figure>
+												<div class="manu-tag">
+													<span>Breakfast</span>
+												</div>
+												<div class="menu-cmnt">
+													<a href="#">4.7</a>
+												</div>
+											</div>
+											<div class="menu-content">
+												<h6>Molestiae sed augue eu sapien hendrerit fringilla</h6>
+												<p>libero tempore, cum soluta nobis est eligendi</p>
+												<div class="diet-plane-wrapper">
+													<span>Diet: <b>Dla mam</b></span>
+													<ul>
+														<li><a href="#"><i class="fa-solid fa-leaf"></i></a></li>
+														<li><a href="#"><i class="fa-solid fa-egg"></i></a></li>
+														<li><a href="#"><i class="fa-solid fa-lines-leaning"></i></a></li>
+													</ul>
+												</div>
+												<span class="kcal-wrapper">182 Kcal</span>
+											</div>
+										</div>
+									</div>
+									<div class="col-lg-3 col-md-6 col-sm-12">
+										<div class="menu-box">
+											<div class="menu-img">
+												<figure>
+													<img src="assets/images/resources/diet-img13.png" alt="menu-img">
+												</figure>
+												<div class="manu-tag">
+													<span>Dinner</span>
+												</div>
+												<div class="menu-cmnt">
+													<a href="#">4.7</a>
+												</div>
+											</div>
+											<div class="menu-content">
+												<h6>Molestiae sed augue eu sapien hendrerit fringilla</h6>
+												<p>Taque earum rerum hic tenetur a sapiente</p>
+												<div class="diet-plane-wrapper">
+													<span>Diet: <b>Fit</b></span>
+													<ul>
+														<li><a href="#"><i class="fa-solid fa-leaf"></i></a></li>
+														<li><a href="#"><i class="fa-solid fa-egg"></i></a></li>
+														<li><a href="#"><i class="fa-solid fa-lines-leaning"></i></a></li>
+													</ul>
+												</div>
+												<span class="kcal-wrapper">410 Kcal</span>
+											</div>
+										</div>
+									</div>
+									<div class="col-lg-3 col-md-6 col-sm-12">
+										<div class="menu-box">
+											<div class="menu-img">
+												<figure>
+													<img src="assets/images/resources/diet-img14.png" alt="menu-img">
+												</figure>
+												<div class="manu-tag">
+													<span>Lunch</span>
+												</div>
+												<div class="menu-cmnt">
+													<a href="#">4.7</a>
+												</div>
+											</div>
+											<div class="menu-content">
+												<h6>Vel illum odio ultricies, nec sollicitudin eros</h6>
+												<p>libero tempore, cum soluta nobis est eligendi</p>
+												<div class="diet-plane-wrapper">
+													<span>Diet: <b>Vegan</b></span>
+													<ul>
+														<li><a href="#"><i class="fa-solid fa-leaf"></i></a></li>
+														<li><a href="#"><i class="fa-solid fa-egg"></i></a></li>
+														<li><a href="#"><i class="fa-solid fa-lines-leaning"></i></a></li>
+													</ul>
+												</div>
+												<span class="kcal-wrapper">420 Kcal</span>
+											</div>
+										</div>
+									</div>
+									<div class="col-lg-3 col-md-6 col-sm-12">
+										<div class="menu-box">
+											<div class="menu-img">
+												<figure>
+													<img src="assets/images/resources/diet-img15.png" alt="menu-img">
+												</figure>
+												<div class="manu-tag">
+													<span>Lunch</span>
+												</div>
+												<div class="menu-cmnt">
+													<a href="#">4.7</a>
+												</div>
+											</div>
+											<div class="menu-content">
+												<h6>Eum fugiat accumsan, sapien vel</h6>
+												<p>Ut aut reiciendis voluptatibus maiores alias consequatur aut</p>
+												<div class="diet-plane-wrapper">
+													<span>Diet: <b>Keto</b></span>
+													<ul>
+														<li><a href="#"><i class="fa-solid fa-leaf"></i></a></li>
+														<li><a href="#"><i class="fa-solid fa-egg"></i></a></li>
+														<li><a href="#"><i class="fa-solid fa-lines-leaning"></i></a></li>
+													</ul>
+												</div>
+												<span class="kcal-wrapper">322 Kcal</span>
+											</div>
+										</div>
+									</div>
+									<div class="col-lg-3 col-md-6 col-sm-12">
+										<div class="menu-box">
+											<div class="menu-img">
+												<figure>
+													<img src="assets/images/resources/diet-img16.png" alt="menu-img">
+												</figure>
+												<div class="manu-tag">
+													<span>Dinner</span>
+												</div>
+												<div class="menu-cmnt">
+													<a href="#">4.7</a>
+												</div>
+											</div>
+											<div class="menu-content">
+												<h6>Оlestiae placerat orci vel arc</h6>
+												<p>Ut aut reiciendis voluptatibus maiores alias consequatur aut</p>
+												<div class="diet-plane-wrapper">
+													<span>Diet: <b>Office box</b></span>
+													<ul>
+														<li><a href="#"><i class="fa-solid fa-leaf"></i></a></li>
+														<li><a href="#"><i class="fa-solid fa-egg"></i></a></li>
+														<li><a href="#"><i class="fa-solid fa-lines-leaning"></i></a></li>
+													</ul>
+												</div>
+												<span class="kcal-wrapper">388 Kcal</span>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div><!--theme-wrap-->
+							<div class="See-more">
+								<a href="#">See More</a>
+							</div><!--See-more-->
+						</div>
+						<div class="tab-pane fade show" id="snack" role="tabpanel" aria-labelledby="snack-tab">
+							<div class="theme-wrap w-100">
+								<div class="row">
+									<div class="col-lg-3 col-md-6 col-sm-12">
+										<div class="menu-box">
+											<div class="menu-img">
+												<figure>
+													<img src="assets/images/resources/diet-img10.png" alt="menu-img">
+												</figure>
+												<div class="manu-tag">
+													<span>Lunch</span>
+												</div>
+												<div class="menu-cmnt">
+													<a href="#">4.8</a>
+												</div>
+											</div>
+											<div class="menu-content">
+												<h6>Vel illum condimentum, risus et</h6>
+												<p>Ut aut reiciendis voluptatibus maiores alias consequatur aut</p>
+												<div class="diet-plane-wrapper">
+													<span>Diet: <b>Vegan</b></span>
+													<ul>
+														<li><a href="#"><i class="fa-solid fa-leaf"></i></a></li>
+														<li><a href="#"><i class="fa-solid fa-egg"></i></a></li>
+													</ul>
+												</div>
+												<span class="kcal-wrapper">254 Kcal</span>
+											</div>
+										</div>
+									</div>
+									<div class="col-lg-3 col-md-6 col-sm-12">
+										<div class="menu-box">
+											<div class="menu-img">
+												<figure>
+													<img src="assets/images/resources/diet-img14.png" alt="menu-img">
+												</figure>
+												<div class="manu-tag">
+													<span>Lunch</span>
+												</div>
+												<div class="menu-cmnt">
+													<a href="#">4.7</a>
+												</div>
+											</div>
+											<div class="menu-content">
+												<h6>Vel illum odio ultricies, nec sollicitudin eros</h6>
+												<p>libero tempore, cum soluta nobis est eligendi</p>
+												<div class="diet-plane-wrapper">
+													<span>Diet: <b>Vegan</b></span>
+													<ul>
+														<li><a href="#"><i class="fa-solid fa-leaf"></i></a></li>
+														<li><a href="#"><i class="fa-solid fa-egg"></i></a></li>
+														<li><a href="#"><i class="fa-solid fa-lines-leaning"></i></a></li>
+													</ul>
+												</div>
+												<span class="kcal-wrapper">420 Kcal</span>
+											</div>
+										</div>
+									</div>
+									<div class="col-lg-3 col-md-6 col-sm-12">
+										<div class="menu-box">
+											<div class="menu-img">
+												<figure>
+													<img src="assets/images/resources/diet-img13.png" alt="menu-img">
+												</figure>
+												<div class="manu-tag">
+													<span>Dinner</span>
+												</div>
+												<div class="menu-cmnt">
+													<a href="#">4.7</a>
+												</div>
+											</div>
+											<div class="menu-content">
+												<h6>Molestiae sed augue eu sapien hendrerit fringilla</h6>
+												<p>Taque earum rerum hic tenetur a sapiente</p>
+												<div class="diet-plane-wrapper">
+													<span>Diet: <b>Fit</b></span>
+													<ul>
+														<li><a href="#"><i class="fa-solid fa-leaf"></i></a></li>
+														<li><a href="#"><i class="fa-solid fa-egg"></i></a></li>
+														<li><a href="#"><i class="fa-solid fa-lines-leaning"></i></a></li>
+													</ul>
+												</div>
+												<span class="kcal-wrapper">410 Kcal</span>
+											</div>
+										</div>
+									</div>
+									<div class="col-lg-3 col-md-6 col-sm-12">
+										<div class="menu-box">
+											<div class="menu-img">
+												<figure>
+													<img src="assets/images/resources/diet-img12.png" alt="menu-img">
+												</figure>
+												<div class="manu-tag">
+													<span>Breakfast</span>
+												</div>
+												<div class="menu-cmnt">
+													<a href="#">4.7</a>
+												</div>
+											</div>
+											<div class="menu-content">
+												<h6>Molestiae sed augue eu sapien hendrerit fringilla</h6>
+												<p>libero tempore, cum soluta nobis est eligendi</p>
+												<div class="diet-plane-wrapper">
+													<span>Diet: <b>Dla mam</b></span>
+													<ul>
+														<li><a href="#"><i class="fa-solid fa-leaf"></i></a></li>
+														<li><a href="#"><i class="fa-solid fa-egg"></i></a></li>
+														<li><a href="#"><i class="fa-solid fa-lines-leaning"></i></a></li>
+													</ul>
+												</div>
+												<span class="kcal-wrapper">182 Kcal</span>
+											</div>
+										</div>
+									</div>
+									<div class="col-lg-3 col-md-6 col-sm-12">
+										<div class="menu-box">
+											<div class="menu-img">
+												<figure>
+													<img src="assets/images/resources/diet-img11.png" alt="menu-img">
+												</figure>
+												<div class="manu-tag">
+													<span>Snacks</span>
+												</div>
+												<div class="menu-cmnt">
+													<a href="#">4.7</a>
+												</div>
+											</div>
+											<div class="menu-content">
+												<h6>Eum fugiat nulla gravida magna</h6>
+												<p>Ut aut reiciendis voluptatibus maiores alias consequatur aut</p>
+												<div class="diet-plane-wrapper">
+													<span>Diet: <b>Slim</b></span>
+													<ul>
+														<li><a href="#"><i class="fa-solid fa-leaf"></i></a></li>
+														<li><a href="#"><i class="fa-solid fa-egg"></i></a></li>
+														<li><a href="#"><i class="fa-solid fa-lines-leaning"></i></a></li>
+													</ul>
+												</div>
+												<span class="kcal-wrapper">298 Kcal</span>
+											</div>
+										</div>
+									</div>
+									<div class="col-lg-3 col-md-6 col-sm-12">
+										<div class="menu-box">
+											<div class="menu-img">
+												<figure>
+													<img src="assets/images/resources/diet-img15.png" alt="menu-img">
+												</figure>
+												<div class="manu-tag">
+													<span>Lunch</span>
+												</div>
+												<div class="menu-cmnt">
+													<a href="#">4.7</a>
+												</div>
+											</div>
+											<div class="menu-content">
+												<h6>Eum fugiat accumsan, sapien vel</h6>
+												<p>Ut aut reiciendis voluptatibus maiores alias consequatur aut</p>
+												<div class="diet-plane-wrapper">
+													<span>Diet: <b>Keto</b></span>
+													<ul>
+														<li><a href="#"><i class="fa-solid fa-leaf"></i></a></li>
+														<li><a href="#"><i class="fa-solid fa-egg"></i></a></li>
+														<li><a href="#"><i class="fa-solid fa-lines-leaning"></i></a></li>
+													</ul>
+												</div>
+												<span class="kcal-wrapper">322 Kcal</span>
+											</div>
+										</div>
+									</div>
+									<div class="col-lg-3 col-md-6 col-sm-12">
+										<div class="menu-box">
+											<div class="menu-img">
+												<figure>
+													<img src="assets/images/resources/diet-img9.png" alt="menu-img">
+												</figure>
+												<div class="manu-tag">
+													<span>Breakfast</span>
+												</div>
+												<div class="menu-cmnt">
+													<a href="#">4.8</a>
+												</div>
+											</div>
+											<div class="menu-content">
+												<h6>Molestiae sed augue eu sapien hendrerit fringilla</h6>
+												<p>Taque earum rerum hic tenetur a sapiente</p>
+												<div class="diet-plane-wrapper">
+													<span>Diet: <b>Slim</b></span>
+													<ul>
+														<li><a href="#"><i class="fa-solid fa-leaf"></i></a></li>
+														<li><a href="#"><i class="fa-solid fa-egg"></i></a></li>
+														<li><a href="#"><i class="fa-solid fa-lines-leaning"></i></a></li>
+													</ul>
+												</div>
+												<span class="kcal-wrapper">420 Kcal</span>
+											</div>
+										</div>
+									</div>
+									<div class="col-lg-3 col-md-6 col-sm-12">
+										<div class="menu-box">
+											<div class="menu-img">
+												<figure>
+													<img src="assets/images/resources/diet-img16.png" alt="menu-img">
+												</figure>
+												<div class="manu-tag">
+													<span>Dinner</span>
+												</div>
+												<div class="menu-cmnt">
+													<a href="#">4.7</a>
+												</div>
+											</div>
+											<div class="menu-content">
+												<h6>Оlestiae placerat orci vel arc</h6>
+												<p>Ut aut reiciendis voluptatibus maiores alias consequatur aut</p>
+												<div class="diet-plane-wrapper">
+													<span>Diet: <b>Office box</b></span>
+													<ul>
+														<li><a href="#"><i class="fa-solid fa-leaf"></i></a></li>
+														<li><a href="#"><i class="fa-solid fa-egg"></i></a></li>
+														<li><a href="#"><i class="fa-solid fa-lines-leaning"></i></a></li>
+													</ul>
+												</div>
+												<span class="kcal-wrapper">388 Kcal</span>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div><!--theme-wrap-->
+							<div class="See-more">
+								<a href="#">See More</a>
+							</div><!--See-more-->
+						</div>
+						<div class="tab-pane fade" id="dinner" role="tabpanel" aria-labelledby="dinner-tab">
+							<div class="theme-wrap w-100">
+								<div class="row">
+									<div class="col-lg-3 col-md-6 col-sm-12">
+										<div class="menu-box">
+											<div class="menu-img">
+												<figure>
+													<img src="assets/images/resources/diet-img13.png" alt="menu-img">
+												</figure>
+												<div class="manu-tag">
+													<span>Dinner</span>
+												</div>
+												<div class="menu-cmnt">
+													<a href="#">4.7</a>
+												</div>
+											</div>
+											<div class="menu-content">
+												<h6>Molestiae sed augue eu sapien hendrerit fringilla</h6>
+												<p>Taque earum rerum hic tenetur a sapiente</p>
+												<div class="diet-plane-wrapper">
+													<span>Diet: <b>Fit</b></span>
+													<ul>
+														<li><a href="#"><i class="fa-solid fa-leaf"></i></a></li>
+														<li><a href="#"><i class="fa-solid fa-egg"></i></a></li>
+														<li><a href="#"><i class="fa-solid fa-lines-leaning"></i></a></li>
+													</ul>
+												</div>
+												<span class="kcal-wrapper">410 Kcal</span>
+											</div>
+										</div>
+									</div>
+									<div class="col-lg-3 col-md-6 col-sm-12">
+										<div class="menu-box">
+											<div class="menu-img">
+												<figure>
+													<img src="assets/images/resources/diet-img11.png" alt="menu-img">
+												</figure>
+												<div class="manu-tag">
+													<span>Snacks</span>
+												</div>
+												<div class="menu-cmnt">
+													<a href="#">4.7</a>
+												</div>
+											</div>
+											<div class="menu-content">
+												<h6>Eum fugiat nulla gravida magna</h6>
+												<p>Ut aut reiciendis voluptatibus maiores alias consequatur aut</p>
+												<div class="diet-plane-wrapper">
+													<span>Diet: <b>Slim</b></span>
+													<ul>
+														<li><a href="#"><i class="fa-solid fa-leaf"></i></a></li>
+														<li><a href="#"><i class="fa-solid fa-egg"></i></a></li>
+														<li><a href="#"><i class="fa-solid fa-lines-leaning"></i></a></li>
+													</ul>
+												</div>
+												<span class="kcal-wrapper">298 Kcal</span>
+											</div>
+										</div>
+									</div>
+									<div class="col-lg-3 col-md-6 col-sm-12">
+										<div class="menu-box">
+											<div class="menu-img">
+												<figure>
+													<img src="assets/images/resources/diet-img12.png" alt="menu-img">
+												</figure>
+												<div class="manu-tag">
+													<span>Breakfast</span>
+												</div>
+												<div class="menu-cmnt">
+													<a href="#">4.7</a>
+												</div>
+											</div>
+											<div class="menu-content">
+												<h6>Molestiae sed augue eu sapien hendrerit fringilla</h6>
+												<p>libero tempore, cum soluta nobis est eligendi</p>
+												<div class="diet-plane-wrapper">
+													<span>Diet: <b>Dla mam</b></span>
+													<ul>
+														<li><a href="#"><i class="fa-solid fa-leaf"></i></a></li>
+														<li><a href="#"><i class="fa-solid fa-egg"></i></a></li>
+														<li><a href="#"><i class="fa-solid fa-lines-leaning"></i></a></li>
+													</ul>
+												</div>
+												<span class="kcal-wrapper">182 Kcal</span>
+											</div>
+										</div>
+									</div>
+									<div class="col-lg-3 col-md-6 col-sm-12">
+										<div class="menu-box">
+											<div class="menu-img">
+												<figure>
+													<img src="assets/images/resources/diet-img10.png" alt="menu-img">
+												</figure>
+												<div class="manu-tag">
+													<span>Lunch</span>
+												</div>
+												<div class="menu-cmnt">
+													<a href="#">4.8</a>
+												</div>
+											</div>
+											<div class="menu-content">
+												<h6>Vel illum condimentum, risus et</h6>
+												<p>Ut aut reiciendis voluptatibus maiores alias consequatur aut</p>
+												<div class="diet-plane-wrapper">
+													<span>Diet: <b>Vegan</b></span>
+													<ul>
+														<li><a href="#"><i class="fa-solid fa-leaf"></i></a></li>
+														<li><a href="#"><i class="fa-solid fa-egg"></i></a></li>
+													</ul>
+												</div>
+												<span class="kcal-wrapper">254 Kcal</span>
+											</div>
+										</div>
+									</div>
+									<div class="col-lg-3 col-md-6 col-sm-12">
+										<div class="menu-box">
+											<div class="menu-img">
+												<figure>
+													<img src="assets/images/resources/diet-img14.png" alt="menu-img">
+												</figure>
+												<div class="manu-tag">
+													<span>Lunch</span>
+												</div>
+												<div class="menu-cmnt">
+													<a href="#">4.7</a>
+												</div>
+											</div>
+											<div class="menu-content">
+												<h6>Vel illum odio ultricies, nec sollicitudin eros</h6>
+												<p>libero tempore, cum soluta nobis est eligendi</p>
+												<div class="diet-plane-wrapper">
+													<span>Diet: <b>Vegan</b></span>
+													<ul>
+														<li><a href="#"><i class="fa-solid fa-leaf"></i></a></li>
+														<li><a href="#"><i class="fa-solid fa-egg"></i></a></li>
+														<li><a href="#"><i class="fa-solid fa-lines-leaning"></i></a></li>
+													</ul>
+												</div>
+												<span class="kcal-wrapper">420 Kcal</span>
+											</div>
+										</div>
+									</div>
+									<div class="col-lg-3 col-md-6 col-sm-12">
+										<div class="menu-box">
+											<div class="menu-img">
+												<figure>
+													<img src="assets/images/resources/diet-img16.png" alt="menu-img">
+												</figure>
+												<div class="manu-tag">
+													<span>Dinner</span>
+												</div>
+												<div class="menu-cmnt">
+													<a href="#">4.7</a>
+												</div>
+											</div>
+											<div class="menu-content">
+												<h6>Оlestiae placerat orci vel arc</h6>
+												<p>Ut aut reiciendis voluptatibus maiores alias consequatur aut</p>
+												<div class="diet-plane-wrapper">
+													<span>Diet: <b>Office box</b></span>
+													<ul>
+														<li><a href="#"><i class="fa-solid fa-leaf"></i></a></li>
+														<li><a href="#"><i class="fa-solid fa-egg"></i></a></li>
+														<li><a href="#"><i class="fa-solid fa-lines-leaning"></i></a></li>
+													</ul>
+												</div>
+												<span class="kcal-wrapper">388 Kcal</span>
+											</div>
+										</div>
+									</div>
+									<div class="col-lg-3 col-md-6 col-sm-12">
+										<div class="menu-box">
+											<div class="menu-img">
+												<figure>
+													<img src="assets/images/resources/diet-img15.png" alt="menu-img">
+												</figure>
+												<div class="manu-tag">
+													<span>Lunch</span>
+												</div>
+												<div class="menu-cmnt">
+													<a href="#">4.7</a>
+												</div>
+											</div>
+											<div class="menu-content">
+												<h6>Eum fugiat accumsan, sapien vel</h6>
+												<p>Ut aut reiciendis voluptatibus maiores alias consequatur aut</p>
+												<div class="diet-plane-wrapper">
+													<span>Diet: <b>Keto</b></span>
+													<ul>
+														<li><a href="#"><i class="fa-solid fa-leaf"></i></a></li>
+														<li><a href="#"><i class="fa-solid fa-egg"></i></a></li>
+														<li><a href="#"><i class="fa-solid fa-lines-leaning"></i></a></li>
+													</ul>
+												</div>
+												<span class="kcal-wrapper">322 Kcal</span>
+											</div>
+										</div>
+									</div>
+									<div class="col-lg-3 col-md-6 col-sm-12">
+										<div class="menu-box">
+											<div class="menu-img">
+												<figure>
+													<img src="assets/images/resources/diet-img9.png" alt="menu-img">
+												</figure>
+												<div class="manu-tag">
+													<span>Breakfast</span>
+												</div>
+												<div class="menu-cmnt">
+													<a href="#">4.8</a>
+												</div>
+											</div>
+											<div class="menu-content">
+												<h6>Molestiae sed augue eu sapien hendrerit fringilla</h6>
+												<p>Taque earum rerum hic tenetur a sapiente</p>
+												<div class="diet-plane-wrapper">
+													<span>Diet: <b>Slim</b></span>
+													<ul>
+														<li><a href="#"><i class="fa-solid fa-leaf"></i></a></li>
+														<li><a href="#"><i class="fa-solid fa-egg"></i></a></li>
+														<li><a href="#"><i class="fa-solid fa-lines-leaning"></i></a></li>
+													</ul>
+												</div>
+												<span class="kcal-wrapper">420 Kcal</span>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div><!--theme-wrap-->
+							<div class="See-more">
+								<a href="#">See More</a>
+							</div><!--See-more-->
+						</div>
+					</div><!--end-tab-cntct-->
+				</div>
+			</div>
+		</div>
+	</section>
+
+
+
+
+	<footer>
+		<div class="main-footer">
+			<div class="container">
+				<div class="wpe-widget">
+					<div class="ft-main">
+						<div class="logo">
+							<h1>
+								<a href="#">
+									<img src="assets/images/resources/logo.png" alt="logo-img">
+								</a>
+							</h1>
+						</div>
+						<div class="menu-wrapper">
+							<ul class="menu">
+								<li><a href="#">Diets</a></li>
+								<li><a href="#">Calorie calculator</a></li>
+								<li><a href="#">Menu</a></li>
+								<li><a href="#">Delivery</a></li>
+								<li><a href="#">About Us</a></li>
+								<li><a href="#">Blog</a></li>
+								<li><a href="#">Faq</a></li>
+							</ul>
+						</div>
+						<div class="contact-wrapper">
+							<span>Contact: <a href="#">+1 (213) 776 24 10</a></span>
+						</div>
+					</div>
+				</div>
+				<div class="wpe-widget">
+					<div class="social-icon">
+						<ul>
+							<li><a href="#"><i class="fa-brands fa-facebook-f"></i></a></li>
+							<li><a href="#"><i class="fa-brands fa-instagram"></i></a></li>
+							<li><a href="#"><i class="fa-brands fa-twitter"></i></a></li>
+						</ul>
+					</div>
+				</div>
+				<div class="bottom">
+					<p><span>Policy privacy</span> Copyright 2022. All rights reserved</p>
+				</div>
+			</div>
+		</div>
+	</footer>
+
+
+
+	<script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+	<script src="assets/js/owl.carousel.js"></script>
+	<script src="assets/js/bootstrap.bundle.min.js"></script>
+	<script src="assets/js/flex-box.js"></script>
+	<script src="assets/js/script.js"></script>
+	<script src="https://kit.fontawesome.com/00d034d2d5.js" crossorigin="anonymous"></script>
+</body>
+</html>

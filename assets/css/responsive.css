@@ -1,0 +1,252 @@
+@media(max-width:1400px){
+	.banner-content h2{font-size:60px;}
+	.title h2{font-size:30px; margin-bottom:60px;}
+	.trial-diet-content h4{font-size:35px;}
+	.calorie-contact-wrapper{padding:85px 50px 220px;}
+	.calorie-contact h2{font-size:35px;}
+	.deliver-wrapper.v2{padding-top:110px;}
+	.accordion-button{font-size:20px;}
+}
+
+
+
+@media(max-width:1199px){
+	.menu-wrapper >ul >li:not(:last-child) , 
+	.menu-wrapper nav >ul >li:not(:last-child){
+		margin-right:30px;
+	}
+	.banner-content h2{font-size:45px;}
+	.title h2{font-size:26px; margin-bottom:50px; line-height:40px;}
+	.live-box-content{padding:10px 10px 20px;}
+	blockquote{padding-left:45px;}
+	.trial-diet-content h4{font-size:32px; line-height:50px; margin-bottom:10px;}
+	.calorie-contact h2{font-size:30px;}
+	.calorie-contact >p{font-size:14px; margin-bottom:40px;}
+	.diet-content ul li{font-size:12px;}
+	.deliver-wrapper .title p{max-width:80%; margin-bottom:60px;}
+	.diet-content p , .diet-content span{font-size:12px;}
+	.accordion-body p{font-size:14px;}
+}
+
+
+
+@media(max-width:992px){
+	.banner-content{max-width:75%; margin-bottom:40px;}
+	.live-content , .title h2 , .box-diet-block , .blog-box , .calorie-content{margin-bottom:30px;}
+	.banner-img{left:-5%;}
+	.popular-diet-wrapper , .box-diet-wrapper, .order-wrapper, .blog-wrapper, .calorie-wrapper , .live-wrapper{padding-bottom:130px;}
+	.live-wrapper:before, .popular-diet-wrapper:before, .box-diet-wrapper:before, .order-wrapper:before, .blog-wrapper:before, .calorie-wrapper:before{bottom:5%;}
+	.deliver-wrapper .title p{max-width:100%; margin-bottom:50px;}
+	.deliver-content ul li a{width:150px; font-size:14px;}
+	.deliver-form form input , .calorie-content form input , .calorie-content .select-wrapper{margin-bottom:40px;}
+	.trial-diet-img{top:-40%; right:-40%;}
+	.trial-diet-img.v2{bottom:-40%; left:-40%;}
+	.order-box{padding-left:80px;}
+	.order-box:not(:last-child){margin-bottom:60px;}
+	.order-box:before{width:100px;}
+	.order-wrapper .title p{margin-bottom:50px;}
+	.ft-main{flex-direction:column; gap:30px;}
+	.main-footer:after{top:-20%;}
+	blockquote p{font-size:14px;}
+	.calorie-wrapper , .menu-main-wrapper, .diet-main-wrapper{padding-top:100px;}
+	.calorie-contact-wrapper{margin-bottom:35px;}
+	.deliver-wrapper.v2{padding-top:80px;}
+	.title p{font-size:14px;}
+	.deliver-form.v2{margin-bottom:70px;}
+	.daily-wrapper h6 span{font-size:24px;}
+	.daily-wrapper p{max-width:100%; font-size:14px;}
+	.diet-select{display:block;}
+	.diet-select .nav-tabs{margin-bottom:30px;}
+	.menu-wrapper nav >ul >li:not(:last-child){margin-right:0;}
+	.accordion-button{font-size:18px;}
+	.menu-wrapper nav >ul li.menu-item-has-children >a:before{
+		content:"";
+		position:absolute;
+		background-color:var(--black2);
+		width:10px;
+		height:2px;
+		top:50%;
+		right:0;
+		transform:translate(-50% , -50%);
+		transition:all 0.3s linear;
+	}
+	.menu-item-has-children ul {
+		margin-left: 35px;
+		visibility: hidden;
+		max-height: 0;
+	}
+	.activemenu {
+		visibility: visible !important;
+		max-height: 100% !important;
+	}
+	.inner-header .menu-wrapper{
+		position: fixed;
+		top: 0;
+		right: -100%;
+		background-color: var(--white);
+		overflow-y: auto;
+		max-width: 25rem;
+		padding: 20px;
+		width: 100%;
+		height: 100vh;
+		z-index: 999999;
+		transition: all 1s linear;
+		box-shadow:-0.3rem 0rem 1rem rgb(0 0 0 / 8%);
+	}
+	.inner-header .menu-wrapper .menu{
+		display:block;
+	}
+	.menu-wrapper nav .menu >li:not(:last-child) {
+		border-bottom: 1px solid var(--gray);
+	}
+	.menu-wrapper nav .menu li a {
+		display: flex;
+		justify-content: space-between;
+		padding: 20px 0;
+		position: relative;
+	}
+}
+
+
+@media(max-width:767px){
+	.banner-content{max-width:100%;}
+	.banner-content h2{font-size:40px; margin-bottom:30px;}
+	.banner-content{padding:200px 0 250px;}
+	.banner-content:before{width:175px;}
+	.trial-diet-img{display:none;}
+	.trial-diet-wrapper{padding:120px 0;}
+	.trial-diet-inner-wrapper{border-radius:50px; padding:80px 0;}
+	.trial-diet-content h4{font-size:28px;}
+	.trial-diet-content p{font-size:14px; margin-bottom:40px;}
+	.order-img , .deliver-form , .tmr-wrapper .title{margin-bottom:30px;}
+	.order-box{padding-left:110px;}
+	.ft-main .menu-wrapper >ul >li:not(:last-child){margin-right:15px;}
+	.title h2{font-size:24px;}
+	.box-diet-wrapper .title h2{margin-bottom:40px;}
+	.diet-content ul li , .diet-content p{font-size:12px;}
+	.diet-content span b{font-size:25px;}
+	.calorie-contact-wrapper{padding:70px 50px 180px;}
+	.calorie-wrapper:before{bottom:3%;}
+	.calorie-contact h2{font-size:28px;}
+	.calorie-content >p{margin-bottom:40px; max-width:90%;}
+	.daily-wrapper{margin-bottom:30px;}
+	.diet-img figure img , .menu-img figure img{width:100%;}
+	.accordion-button{font-size:16px;}
+}
+
+
+@media(max-width:567px){
+	.banner-content h2{font-size:35px;}
+	.banner-content:before{bottom:5%;}
+	.banner-content p{margin-bottom:20px;}
+	.blog-content h5{font-size:14px;}
+	.blog-content span{margin-bottom:15px;}
+	.blog-content.v2 p{margin-bottom:20px;}
+	.title h2{font-size:22px;}
+	.blog-content p{font-size:12px;}
+	.deliver-content ul li a{width:135px;}
+	.ft-main .menu{flex-wrap:wrap; justify-content:center;}
+	.order-box-content p{font-size:14px;}
+	.trial-diet-content h4{font-size:26px;}
+	blockquote p{font-size:12px;}
+	.calorie-contact h2{font-size:26px;}
+	.contact-list-wrapper li p{font-size:14px;}
+	.wpe-widget .social-icon{margin-bottom:50px;}
+	.calorie-content >p{max-width:100%;}
+	.calorie-wrapper, .menu-main-wrapper, .diet-main-wrapper{padding-top:70px;}
+}
+
+
+@media(max-width:480px){
+	.blog-box.v2{display:block;}
+	.blog-box.v2 .blog-img figure img{width:100%;}
+	.live-wrapper:before, .popular-diet-wrapper:before, .box-diet-wrapper:before, .order-wrapper:before, .blog-wrapper:before, .calorie-wrapper:before{bottom:3%;}
+	.deliver-content ul li a{width:120px;}
+	.ft-main .menu-wrapper >ul >li{padding:15px 0;}
+	.sign-shop-wrapper{gap:20px;}
+	.order-box{padding-left:60px;}
+	.order-box:not(:last-child){margin-bottom:40px;}
+	.order-box:after{font-size:12px; width:25px; height:25px;}
+	.order-box-content h6 , .contact-list-wrapper li span{font-size:14px;}
+	.order-box-content p , .contact-list-wrapper li p{font-size:12px;}
+	.order-box:before{width:80px;}
+	.banner-content h2{line-height:50px; font-size:30px;}
+	.banner-content{padding:100px 0 165px;}
+	.banner-content:before{width:140px;}
+	.calorie-contact h2{font-size:24px; line-height:45px;}
+	.calorie-contact-wrapper{padding:50px 30px 140px;}
+	.contact-list-wrapper{justify-content:space-between;}
+	.calorie-contact >p{margin-bottom:25px;}
+	.bottom p span{margin-right:20px;}
+	.bottom p{font-size:10px;}
+	.daily-wrapper h6 span{font-size:19px;}
+	.inner-header .menu-wrapper{max-width:19rem;}
+}
+
+
+@media(max-width:375px){
+	.ft-main .menu-wrapper >ul >li{margin-right:15px;}
+	.calorie-contact h2{font-size:20px;}
+}
+
+
+
+
+@media(min-width:993px){
+	.menu-toggle , .cross-btn{display:none;}
+	.menu li{
+		font-weight:400;
+		font-size:14px;
+		text-transform:uppercase;
+		color:var(--black2);
+		position:relative;
+	}
+	.menu-wrapper ul li:before , .menu-wrapper ul li.active:before{
+		content:"";
+		position:absolute;
+		background-color:var(--black2);
+		width:10px;
+		height:2px;
+		top:100%;
+		left:50%;
+		transform:translateX(-50%);
+		opacity:0;
+		visibility:hidden;
+		transition:all 0.3s linear;
+	}
+	.menu-wrapper ul li:hover:before , .menu-wrapper ul li.active:before{
+		opacity:1;
+		visibility:visible;
+	}
+	.menu-wrapper ul li a:hover{
+		color:var(--black2);
+	}
+	.menu-item-has-children ul {
+		position: absolute;
+		top: calc(100% + 5px);
+		left: 0;
+		background-color: var(--white);
+		min-width: 13rem;
+		width: 100%;
+		padding: 0 15px;
+		transform: scaleY(0);
+		transform-origin: top center;
+		box-shadow:4px 4px 9px rgb(0 0 0 / 20%);
+		transition: all 500ms ease;
+	}
+	.menu-item-has-children:hover ul {
+		transform: scaleY(1);
+	}
+	.menu-item-has-children ul li a{
+		padding:10px 0;
+		display:block;
+	}
+	.menu-item-has-children ul li:before{
+		top:50%;
+		right:0;
+		left:unset;
+	}
+	.menu-item-has-children ul li:not(:last-child){
+		border-bottom:1px solid var(--gray);
+	}
+}
